@@ -1,0 +1,11 @@
+<div class="page-header">
+  <h2>{{page.title}} <small>partial: {{template.url}}</small></h2>
+  <select class="pull-left" ng-model="template" ng-options="t.name for t in templates">
+    <option value=""></option>
+  </select>
+  <ul class="nav nav-pills pull-right" style="margin-bottom:0">
+    <li ng-repeat="tFile in templates" ng-class="{active : isActive(tFile.name)}"><a href="#/demo/bs/{{tFile.name}}">{{tFile.name}}</a></li>
+  </ul>
+  <hr class="invisible clearfix" style="clear:both;margin:0;padding:0;height:1px">
+</div>
+<div ng-include src="template.url"></div>
