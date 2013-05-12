@@ -7,9 +7,9 @@
 
 # THANKS
 
-    Steven McCall
+    Sponsors go here
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Bootstrap, jQuery, Modernizr, AngularJS, RequireJS
